@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-11-19T11:00:08.177588",
+  "kpis": {
+    "total_units_sold": 1189,
+    "total_returns": 176,
+    "total_revenue": 25190.0,
+    "return_rate_pct": 14.8,
+    "average_daily_revenue": 1574.38
+  },
+  "forecasts": [
+    1463.7,
+    1466.51,
+    1443.24,
+    1386.51
+  ]
+}

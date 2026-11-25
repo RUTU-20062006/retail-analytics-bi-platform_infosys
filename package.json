@@ -1,0 +1,22 @@
+{
+  "name": "omnianalytics-project",
+  "version": "1.0.0",
+  "description": "OmniAnalytics - Interactive Visual Business Intelligence Platform",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "db:init": "npm run db:init --prefix server",
+    "analytics": "python python/analytics_engine.py"
+  },
+  "keywords": [
+    "omnianalytics",
+    "business-intelligence",
+    "retail",
+    "postgresql",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}

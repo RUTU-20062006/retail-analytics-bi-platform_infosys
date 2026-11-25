@@ -1,0 +1,29 @@
+{
+  "name": "omnianalytics-backend",
+  "version": "1.0.0",
+  "description": "Backend API for OmniAnalytics BI Platform with PostgreSQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "db:init": "node scripts/initDb.js"
+  },
+  "keywords": [
+    "omnianalytics",
+    "express",
+    "postgresql",
+    "bi-dashboard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
