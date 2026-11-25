@@ -20,6 +20,7 @@ import NotificationsPopover from './components/NotificationsPopover';
 import ExportModal from './components/ExportModal';
 import NewOrderModal from './components/NewOrderModal';
 import NewProductModal from './components/NewProductModal';
+import AIAssistantWidget from './components/AIAssistantWidget';
 import { Lock, ArrowLeftRight } from 'lucide-react';
 
 function DashboardContent() {
@@ -256,6 +257,9 @@ function DashboardContent() {
         onClose={() => setIsNewProductOpen(false)}
         onAddProduct={addProduct}
       />
+
+      {/* Floating AI Store Assistant Bot (Mentor's Request) */}
+      <AIAssistantWidget onNavigateTab={(tab) => setActiveTab(tab)} />
     </div>
   );
 }
